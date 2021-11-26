@@ -32,7 +32,6 @@ async function run(){
           const result = await Orders.insertOne(req.body);
             res.send(result);
         }) 
-
         
 
         // Get My myBookings
